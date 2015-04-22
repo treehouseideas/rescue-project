@@ -8,19 +8,34 @@
 		<meta name="Description" content=" " />
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-		
+
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
 		<!-- CSS -->
 		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="includes/js/flexslider-ver=3.9.1.css" type="text/css" media="all" />
 		<link rel="stylesheet" href="includes/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-		
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 		<!-- The next line calls the font for the headings from Google. You can customize this at Google.com/fonts */ -->
 		<link href='http://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'>
-		
+
 		<!-- The Favicon -->
 		<link rel="shortcut icon" href="images/favicon.png" />
 	</head>
 	<body class="content_left scheme_red">
+
+
+
+
+
+
+
+
 		<section id="main_wrap">
 			<header class="wrapper" id="header">
 				<div class="container">
@@ -143,24 +158,88 @@
 </div>
 <section id="home_widgets">
 	<div id="home_widget_wrap" class="banner_widget_count2 rescue_email_banner clearfix">
-		<aside class="widget">
-			<h3 class="widgettitle">Welcome To Rescue</h3>
-			<div class="textwidget">
-				<p>Rescue is a HTML template for animal shelters. Easily display all of the pets available at your shelter.</p>
-				<p>In this area you can display as many blocks of information that you like; simply chance the <em>banner_widget_count2</em> class to accomidate the number of info blocks you have here, from 1 to 5, or more than that can be <em>banner_widget_overflow</em> and the blocks will resize accordingly.</p>
+
+		<div class="tabs">
+			<ul class="tab-links">
+				<li class="active"><a href="#tab1">Form</a></li>
+				<li><a href="#tab2">Picture Database</a></li>
+				<li><a href="#tab3">Calendar</a></li>
+			</ul>
+
+			<div class="tab-content">
+				<div id="tab1" class="tab active">
+					<aside class="widget rescue_email_capture_wrap">
+						<h3 class="widgettitle">  </h3>
+						<div class="textwidget">Get the latest updates on our furry friends!</div>
+						<div id="rescue_email_capture">
+							<form name="rescue_email_capture" method="post" action="#">
+								<input name="rescue-name" type="text" title="Name" Placeholder="Name"  />
+								<input name="rescue-email" type="text" title="Email" Placeholder="Email" />
+								<input name="Submit" type="submit" value="Submit" class="rescue-email-capture-submit" />
+							</form>
+						</div>
+					</aside>
+				</div>
+
+				<div id="tab2" class="tab">
+					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingOne">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Collapsible Group Item #1
+									</a>
+								</h4>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+								<div class="panel-body">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingTwo">
+								<h4 class="panel-title">
+									<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										Collapsible Group Item #2
+									</a>
+								</h4>
+							</div>
+							<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+								<div class="panel-body">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingThree">
+								<h4 class="panel-title">
+									<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+										Collapsible Group Item #3
+									</a>
+								</h4>
+							</div>
+							<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+								<div class="panel-body">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="tab3" class="tab">
+
+					<div id="datepicker"></div>
+
+					<script>
+						$( "#datepicker" ).datepicker();
+					</script>
+
+
+				</div>
 			</div>
-		</aside>
-		<aside class="widget rescue_email_capture_wrap">
-			<h3 class="widgettitle">Join Our Newsletter</h3>
-			<div class="textwidget">Get the latest updates on our furry friends!</div>
-			<div id="rescue_email_capture">
-				<form name="rescue_email_capture" method="post" action="#">
-					<input name="rescue-name" type="text" title="Name" Placeholder="Name"  />
-					<input name="rescue-email" type="text" title="Email" Placeholder="Email" />
-					<input name="Submit" type="submit" value="Submit" class="rescue-email-capture-submit" />
-				</form>
-			</div>
-		</aside>
+		</div>
 	</div>
 </section>
 <div class="posts-wrap">
