@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="13874776-1142-4ce1-bf60-01a1c1ac6d0a" name="Default" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pets/candy1-275x275.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/rescue-projectA.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pets/archie1-180x180.jpg" afterPath="$PROJECT_DIR$/images/pets/archie1-180x180.jpg" />
@@ -28,6 +29,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pets-all.php.html" afterPath="$PROJECT_DIR$/pets-all.php.html" />
 =======
+=======
+>>>>>>> origin/master
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pets-candy.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pets-chance.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pets-charlie.html" />
@@ -40,6 +43,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pets-all.php.html" afterPath="$PROJECT_DIR$/pets-all.php.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/js/rescue.js" afterPath="$PROJECT_DIR$/includes/js/rescue.js" />
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -62,6 +68,7 @@
     <favorites_list name="rescue-projectA" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
@@ -96,6 +103,8 @@
       </file>
     </leaf>
 =======
+=======
+>>>>>>> origin/master
     <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -104,6 +113,9 @@
         <option value="Html5" />
       </list>
     </option>
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
   </component>
   <component name="Git.Settings">
@@ -114,8 +126,11 @@
       <list>
         <option value="$PROJECT_DIR$/css/style.css" />
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/pets-all.php.html" />
 =======
+=======
+>>>>>>> origin/master
         <option value="$PROJECT_DIR$/pets-chance.html" />
         <option value="$PROJECT_DIR$/pets-candy.html" />
         <option value="$PROJECT_DIR$/pets-charlie.html" />
@@ -123,6 +138,9 @@
         <option value="$PROJECT_DIR$/pets-chester.html" />
         <option value="$PROJECT_DIR$/pets-archie.html" />
         <option value="$PROJECT_DIR$/includes/js/rescue.js" />
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -136,8 +154,13 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="width" value="1440" />
     <option name="height" value="900" />
+=======
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+>>>>>>> origin/master
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -164,7 +187,10 @@
     <panes>
       <pane id="Scratches" />
       <pane id="Scope" />
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> origin/master
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -180,8 +206,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
 <<<<<<< HEAD
+<<<<<<< HEAD
               <option name="myItemId" value="rescue-project" />
 =======
+=======
+>>>>>>> origin/master
               <option name="myItemId" value="rescue-projectA" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -247,6 +276,9 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -268,6 +300,16 @@
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
+<<<<<<< HEAD
+=======
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+>>>>>>> origin/master
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
       <envs />
       <method />
@@ -275,6 +317,7 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
@@ -282,6 +325,8 @@
       <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
+=======
+>>>>>>> origin/master
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
@@ -316,8 +361,13 @@
   </component>
   <component name="ToolWindowManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
+=======
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="false" />
+>>>>>>> origin/master
 =======
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="false" />
@@ -328,7 +378,13 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24930556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> origin/master
 =======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -342,6 +398,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -352,6 +409,11 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+>>>>>>> origin/master
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -382,8 +444,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
 <<<<<<< HEAD
+<<<<<<< HEAD
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 =======
+=======
+>>>>>>> origin/master
           <caret line="195" column="57" selection-start-line="195" selection-start-column="57" selection-end-line="195" selection-end-column="57" />
           <folding>
             <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -395,17 +460,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="171" column="45" selection-start-line="171" selection-start-column="45" selection-end-line="171" selection-end-column="45" />
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3786" column="0" selection-start-line="3786" selection-start-column="0" selection-end-line="3786" selection-end-column="0" />
 =======
+=======
+>>>>>>> origin/master
     <entry file="file://$PROJECT_DIR$/pets-chester.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -478,11 +549,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="171" column="45" selection-start-line="171" selection-start-column="45" selection-end-line="171" selection-end-column="45" />
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -490,6 +565,8 @@
           <caret line="3786" column="0" selection-start-line="3786" selection-start-column="0" selection-end-line="3786" selection-end-column="0" />
           <folding />
 =======
+=======
+>>>>>>> origin/master
     <entry file="file://$PROJECT_DIR$/pets-chester.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -663,6 +740,9 @@
           <folding>
             <element signature="n#style#0;n#div#7;n#div#0;n#aside#2;n#div#1;n#div#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
         </state>
       </provider>
@@ -670,8 +750,13 @@
     <entry file="file://$PROJECT_DIR$/pets-all.php.html">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-81.17647">
           <caret line="276" column="26" selection-start-line="276" selection-start-column="26" selection-end-line="276" selection-end-column="26" />
+=======
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="241" column="70" selection-start-line="241" selection-start-column="67" selection-end-line="241" selection-end-column="70" />
+>>>>>>> origin/master
 =======
         <state vertical-scroll-proportion="0.33333334">
           <caret line="241" column="70" selection-start-line="241" selection-start-column="67" selection-end-line="241" selection-end-column="70" />
@@ -683,9 +768,12 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.28294572">
           <caret line="153" column="12" selection-start-line="153" selection-start-column="12" selection-end-line="153" selection-end-column="12" />
 =======
+=======
+>>>>>>> origin/master
         <state vertical-scroll-proportion="0.24116744">
           <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding>
@@ -698,6 +786,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06410257">
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
           <folding />
         </state>

@@ -4,7 +4,10 @@ Code and stuff you need for the Rescue template
 */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/master
 $(document).ready(function(){
 	$("#fade").fadeIn(22000);
 });
@@ -23,6 +26,9 @@ jQuery(document).ready(function() {
 	});
 });
 
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 jQuery(function($) {
 	
@@ -134,4 +140,7 @@ jQuery(document).ready(function($){
 
 
 
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
