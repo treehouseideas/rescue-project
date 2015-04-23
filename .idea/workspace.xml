@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91f1c02-3781-4376-bbae-e6ea2524a76d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pets/cindy2-180x180.jpg" afterPath="$PROJECT_DIR$/images/pets/cindy2-180x180.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pets/cindy2.jpg" afterPath="$PROJECT_DIR$/images/pets/cindy2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pets/cindy3-180x180.jpg" afterPath="$PROJECT_DIR$/images/pets/cindy3-180x180.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pets/cindy3.jpg" afterPath="$PROJECT_DIR$/images/pets/cindy3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pets/cindy4-180x180.jpg" afterPath="$PROJECT_DIR$/images/pets/cindy4-180x180.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pets/cindy4.jpg" afterPath="$PROJECT_DIR$/images/pets/cindy4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pets/grissom1-275x275.jpg" afterPath="$PROJECT_DIR$/images/pets/grissom1-275x275.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pets/happy1-180x180.jpg" afterPath="$PROJECT_DIR$/images/pets/happy1-180x180.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pets/happy1-275x275.jpg" afterPath="$PROJECT_DIR$/images/pets/happy1-275x275.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pets/inga1-180x180.jpg" afterPath="$PROJECT_DIR$/images/pets/inga1-180x180.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pets/inga1-275x275.jpg" afterPath="$PROJECT_DIR$/images/pets/inga1-275x275.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pets/mudi-180x180.jpg" afterPath="$PROJECT_DIR$/images/pets/mudi-180x180.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pets/nora1-180x180.jpg" afterPath="$PROJECT_DIR$/images/pets/nora1-180x180.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pets/ollie-180x180.jpg" afterPath="$PROJECT_DIR$/images/pets/ollie-180x180.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/rescuelogo.png" afterPath="$PROJECT_DIR$/images/rescuelogo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pets/shorty1-400x200.jpg" afterPath="$PROJECT_DIR$/images/pets/shorty1-400x200.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slide1.jpg" afterPath="$PROJECT_DIR$/images/slide1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slide2.jpg" afterPath="$PROJECT_DIR$/images/slide2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pets-all.php.html" afterPath="$PROJECT_DIR$/pets-all.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/js/rescue.js" afterPath="$PROJECT_DIR$/includes/js/rescue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pets-archie.html" afterPath="$PROJECT_DIR$/pets-archie.html" />
     </list>
     <ignored path="rescue-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,8 +38,8 @@
       <file leaf-file-name="pets-archie.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pets-archie.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53511703">
-              <caret line="135" column="81" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="81" />
+            <state vertical-scroll-proportion="0.89966553">
+              <caret line="224" column="11" selection-start-line="224" selection-start-column="11" selection-end-line="224" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -119,8 +97,8 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/includes/js/rescue.js" />
         <option value="$PROJECT_DIR$/pets-all.php.html" />
-        <option value="$PROJECT_DIR$/pets-archie.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/pets-archie.html" />
       </list>
     </option>
   </component>
@@ -520,8 +498,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pets-archie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53511703">
-          <caret line="135" column="81" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="81" />
+        <state vertical-scroll-proportion="0.89966553">
+          <caret line="224" column="11" selection-start-line="224" selection-start-column="11" selection-end-line="224" selection-end-column="11" />
           <folding />
         </state>
       </provider>
