@@ -408,6 +408,7 @@ h3.search_title {
 
 #logo {
 	display:block;
+    width:220px;
 	max-width: 100%;
 }
 
@@ -3784,9 +3785,13 @@ li.active a, li.active a:hover {
 
 .panel-heading {
     border:inset;
+    border-color:red;
+    border-radius:12px;
+
     /*align:center;*/
 }
 .textwidget{
     text-align:center;
 }
+
 

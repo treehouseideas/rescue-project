@@ -3,6 +3,23 @@ Rescue JS
 Code and stuff you need for the Rescue template
 */
 
+$(document).ready(function(){
+	$("#fade").fadeIn(22000);
+});
+
+jQuery(document).ready(function() {
+	jQuery('.tabs .tab-links a').on('click', function(e)  {
+		var currentAttrValue = jQuery(this).attr('href');
+
+		// Show/Hide Tabs
+		jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+
+		// Change/remove current tab to active
+		jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+
+		e.preventDefault();
+	});
+});
 
 jQuery(function($) {
 	
@@ -25,6 +42,7 @@ jQuery(function($) {
 });
 
 jQuery(document).ready(function($){
+
 
 	// load mobile menu
 	$('#main_menu ul.menu').mobileMenu();
@@ -69,18 +87,25 @@ jQuery(document).ready(function($){
 
 });
 
-jQuery(document).ready(function() {
-	jQuery('.tabs .tab-links a').on('click', function(e)  {
-		var currentAttrValue = jQuery(this).attr('href');
+(function() {
+	var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+	$.getJSON( flickerAPI, {
+		tags: "cats dogs",
+		tagmode: "any",
+		format: "json"
+	})
+		.done(function( data ) {
+			$.each( data.items, function( i, item ) {
+				$( "<img>" ).attr( "src", item.media.m ).appendTo( "#images" );
+				if ( i === 3 ) {
+					return false;
+				}
+			});
+		});
+})();
 
-		// Show/Hide Tabs
-		jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
 
-		// Change/remove current tab to active
-		jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
 
-		e.preventDefault();
-	});
-});
+
 
 
