@@ -1,8 +1,3 @@
-/*
-Rescue HTML by Jake Caputo / designcrumbs.com
-Version 1.0
-*/
-
 /* ============================================== CONTENTS ==============================================
 
 1. Fonts
@@ -408,6 +403,7 @@ h3.search_title {
 
 #logo {
 	display:block;
+    width:220px;
 	max-width: 100%;
 }
 
@@ -442,6 +438,13 @@ h3.search_title {
         padding: 40px 0;
     }
 
+#popup {
+
+}
+
+.hidden {
+    display: none;
+}
 /* ============================================== FOOTER ============================================== */
 
 #footer {

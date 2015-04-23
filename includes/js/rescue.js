@@ -50,7 +50,7 @@ jQuery(document).ready(function($){
 		$(this).find('ul:first').css({visibility: "hidden"});
 	});
 	
-	// show hide the searchform
+	// show hide the search form
 	$('#search_link').click(function() {
 		"use strict";
 		$("#searchform").stop().slideToggle();
@@ -58,12 +58,29 @@ jQuery(document).ready(function($){
 	
 	// sticky js
 	// jquery.sticky.js must be activated
-	/* uncomment this to turn on the sticky header.
+	// uncomment this to turn on the sticky header.
+
 	if ( $(window).width() > 960) {
 		$("#header").sticky({topSpacing:0});
-	} */
+	}
 	
 	// Fancybox
-	$(".lightbox").attr('rel', 'gallery').fancybox();
-
+	jQuery(document).ready(function ($popup) {
+		// open with delay
+		setTimeout(function () {
+			$popup.fancybox({
+				href: 'http://novapetsboarding.com/images_new/newsletter/finalheader.png',
+				onComplete: function () {
+					$popup("#fancybox-img").wrap($popup("<a />", {
+						href: "http://facebook.com/",
+						target: "_blank"
+					}));
+					// close with delay
+					setTimeout(function () {
+						$popup.fancybox.close();
+					}, 10000); // setTimeout close
+				}
+			});
+		}, 2000); // setTimeout open
+	}); // ready
 });
