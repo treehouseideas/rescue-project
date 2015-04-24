@@ -1,12 +1,34 @@
+<<<<<<< Updated upstream
 /*
  Rescue JS
  Code and stuff you need for the Rescue template
  */
+=======
+jQuery(document).ready(function() {
+	$('#fade').hide();
+	$('#fade').show(4000);
+	/*$('#logo').show(3000);*/
+	jQuery('.tabs .tab-links a').on('click', function(e)  {
+		var currentAttrValue = jQuery(this).attr('href');
+
+		// Show/Hide Tabs
+		jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+
+		// Change/remove current tab to active
+		jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+
+		e.preventDefault();
+	});
+});
+>>>>>>> Stashed changes
+
 
 jQuery(function($) {
 
 	$(window).load(function(){
 
+		('.attachment-pet_single_large').hide(0);
+		$('.attachment-pet_single_large').show(4000);
 		// THE SLIDER
 		$('#slider_wrap').flexslider({
 			start: function(slider) {
@@ -22,6 +44,15 @@ jQuery(function($) {
 	});
 
 });
+
+	function button() {
+		var person = prompt("What is your name?", "Friend");
+		if (person != null) {
+			document.getElementById("hi").innerHTML =
+				"Hi " + person + "! Would you like to make a new friend?";
+		}
+	};
+
 
 jQuery(document).ready(function($){
 
@@ -81,6 +112,16 @@ jQuery(document).ready(function($){
 					}, 18000); // setTimeout close
 				}
 			});
+<<<<<<< Updated upstream
 		}, 2000); // setTimeout open
 	}); // ready
 });
+=======
+		});
+})();
+
+
+
+
+
+>>>>>>> Stashed changes
