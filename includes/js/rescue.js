@@ -1,34 +1,28 @@
-<<<<<<< Updated upstream
-/*
- Rescue JS
- Code and stuff you need for the Rescue template
- */
-=======
-jQuery(document).ready(function() {
-	$('#fade').hide();
-	$('#fade').show(4000);
-	/*$('#logo').show(3000);*/
-	jQuery('.tabs .tab-links a').on('click', function(e)  {
-		var currentAttrValue = jQuery(this).attr('href');
-
-		// Show/Hide Tabs
-		jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
-
-		// Change/remove current tab to active
-		jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
-
-		e.preventDefault();
-	});
-});
->>>>>>> Stashed changes
-
+// Fancybox
+jQuery(document).ready(function ($popup) {
+	// open with delay
+	setTimeout(function () {
+		$popup.fancybox({
+			href: 'http://olsenvet.com/wp-content/uploads/2014/10/53dc0374ce93c.png.jpeg',
+			onComplete: function () {
+				$popup("#fancybox-img").wrap($popup("<a />", {
+					href: "http://rescuepets.com/",
+					target: "_blank"
+				}));
+				// close with delay
+				setTimeout(function () {
+					$popup.fancybox.close();
+				}, 20000); // setTimeout close
+			}
+		});
+	}, 6000); // setTimeout open
+}); // ready
 
 jQuery(function($) {
 
 	$(window).load(function(){
 
-		('.attachment-pet_single_large').hide(0);
-		$('.attachment-pet_single_large').show(4000);
+
 		// THE SLIDER
 		$('#slider_wrap').flexslider({
 			start: function(slider) {
@@ -41,20 +35,42 @@ jQuery(function($) {
 			smoothHeight: true
 		});
 
+		$('#fade').hide();
+		$('#fade').show(4000);
+		/*$('#logo').show(3000);*/
+		jQuery('.tabs .tab-links a').on('click', function(e)  {
+			var currentAttrValue = jQuery(this).attr('href');
+
+			// Show/Hide Tabs
+			jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+
+			// Change/remove current tab to active
+			jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+
+			e.preventDefault();
+		});
+
 	});
 
 });
 
-	function button() {
-		var person = prompt("What is your name?", "Friend");
-		if (person != null) {
-			document.getElementById("hi").innerHTML =
-				"Hi " + person + "! Would you like to make a new friend?";
-		}
-	};
+function button() {
+	var person = prompt("What is your name?", "Friend");
+	if (person != null) {
+		document.getElementById("hi").innerHTML =
+			"Hi " + person + "! Would you like to make a new friend?";
+	}
+};
+
+function showUser(){
+	alert("hi");
+}
+
+$("#a").datepicker({ onSelect: showUser, minDate: -90, maxDate: "+1D" });
 
 
 jQuery(document).ready(function($){
+
 
 	// load mobile menu
 	$('#main_menu ul.menu').mobileMenu();
@@ -81,7 +97,7 @@ jQuery(document).ready(function($){
 		$(this).find('ul:first').css({visibility: "hidden"});
 	});
 
-	// show hide the search form
+	// show hide the searchform
 	$('#search_link').click(function() {
 		"use strict";
 		$("#searchform").stop().slideToggle();
@@ -90,38 +106,29 @@ jQuery(document).ready(function($){
 	// sticky js
 	// jquery.sticky.js must be activated
 	// uncomment this to turn on the sticky header.
-
 	if ( $(window).width() > 960) {
-		$("#header").sticky({topSpacing:0});
+		$("#mainmenu").sticky({topSpacing:0});
 	}
+	});
 
-	// Fancybox
-	jQuery(document).ready(function ($popup) {
-		// open with delay
-		setTimeout(function () {
-			$popup.fancybox({
-				href: 'images/ad_FINAL.png',
-				onComplete: function () {
-					$popup("#fancybox-img").wrap($popup("<a />", {
-						href: "http://rescuepets.com/",
-						target: "_blank"
-					}));
-					// close with delay
-					setTimeout(function () {
-						$popup.fancybox.close();
-					}, 18000); // setTimeout close
-				}
-			});
-<<<<<<< Updated upstream
-		}, 2000); // setTimeout open
-	}); // ready
-});
-=======
-		});
-})();
+//(function() {
+//	var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+//	$.getJSON( flickerAPI, {
+//		tags: "cats dogs",
+//		tagmode: "any",
+//		format: "json"
+//	})
+//		.done(function( data ) {
+//			$.each( data.items, function( i, item ) {
+//				$( "<img>" ).attr( "src", item.media.m ).appendTo( "#images" );
+//				if ( i === 3 ) {
+//					return false;
+//				}
+//			});
+//		});
+//})();
 
 
 
 
 
->>>>>>> Stashed changes
